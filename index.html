@@ -20,11 +20,209 @@
 </head>
 
 <body>
-    <h1> Web 2 Starter</h1>
+    <div class="wrapper">
+  <header role="header">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" role="button">
+            <span class="sr-only">Toggle Navigation</span>
+            
+            <span class="icon-bar"></span>
+            
+            <span class="icon-bar"></span>
+            
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#" class="navbar-brand">
+          KC</a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right js-nav">
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#services">Involvement</a></li>
+
+            <li><a href="#folio">Folio</a></li>
+
+
+            <li><a href="#contact">Contact</a></li>
+
+            <li><a href="http://alexsblog.org" target="_blank">Resume</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="sec-main">
+    <h1 class="main-heading">Welcome!</h1>
+  </section>
+
+  <section id="about" class="sec-about">
+    <div class="container">
+      <h1>About me</h1>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <p>Hi, my name is Kendal Cler and I am a Technical Communications major from Cheney, WA. My goal as a technical writer is to exercise my skills in editing and visual communications design to create quality pieces. My skills include Indesign, Photoshop, Illustrator, proofreading, HTML, CSS, Javascript, and communication.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="services" class="sec-services">
+    <div class="container">
+      <h1>Involvement</h1>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-sm-4">
+
+          <h2 class="h3">PRSSA</h2>
+
+          <p>I am a member of the Public Relations Student Society of America at EWU.</p>
+        </div>
+
+        <div class="col-sm-4">
+
+          <h2 class="h3">Symposium</h2>
+
+          <p>I was a presenter at EWU for their service learning symposium; I presented a poster on electronic waste and its impact on Earth and the global community.</p>
+        </div>
+
+        <div class="col-sm-4">
+          
+
+          <h2 class="h3">Isabella House</h2>
+
+          <p>Each year I stuff stockings for the children at Isabella House. I also help to organize their basement and donate clothing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="folio" class="sec-folio">
+    <div class="container">
+      <h1>Previous Work</h1>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/Oog0wehKxYs/450x450" alt="By Håkon Sataøen" />
+        </div>
+
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/EfpOiZvPbT4/450x450" alt="By Samuel Zeller" />
+        </div>
+
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/2aoVQXwLf3g/450x450" alt="By Scott Webb" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/o2KD7JtqTlk/450x450" alt="By Has Bonk" />
+        </div>
+
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/TV2ET43jK0w/450x450" alt="By Scott Webb" />
+        </div>
+
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/lZ2LB1s_z7s/450x450" alt="By Daniel Lozano Valdés" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/o4qL4FuwN6I/450x450" alt="By Anthony DELANOIX" />
+        </div>
+
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/ej7RYC0ED_c/450x450" alt="By Patrick Pilz" />
+        </div>
+
+        <div class="col-md-4">
+          <img class="center-block" src="https://source.unsplash.com/0G1r-Cg0zS8/450x450" alt="By Vita Vilcina" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="sec-contact">
+    <div class="container">
+      <h1>Contact Me</h1>
+
+      <hr />
+
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+          <form class="center-block" action="mailto:kendalcler@eagles.ewu.edu" method="post">
+            <div class="form-group">
+              <label class="sr-only" for="inputName">Full name</label>
+
+              <input id="inputName" class="form-control" type="text" placeholder="Adam Smith" required />
+            </div>
+
+            <div class="form-group">
+              <label for="inputMail" class="sr-only">Email Address</label>
+
+              <input id="inputMail" class="form-control" type="email" placeholder="adam.smith@mail.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="inputMessage" class="sr-only">Your Message</label>
+
+              <textarea id="inputMessage" class="form-control" name="message" cols="30" rows="8" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <button class="btn btn-default center-block" type="submit" value="Send">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <ul class="soc-media-ul">
+        <li>
+          <a href="https://twitter.com/ClerKendal" class="fa fa-twitter" target="_blank"></a>
+        </li>
+
+        <li>
+          <a href="https://plus.google.com/106993255243807272386" class="fa fa-google-plus" target="_blank"></a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/kendal-cler-260410130" class="fa fa-linkedin" target="_blank"></a>
+        </li>
+
+        <li>
+          <a href="mailto:kendalcler@eagles.ewu.edu" class="fa fa-envelope"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
     
     
     <!-- Javascripts go before the end of the </body> tag --> 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script> 
     <script src="js/plugin.js"></script> 
     <script src="js/scripts.js"></script>
     <script src="js/Lettering.js/"></script>
